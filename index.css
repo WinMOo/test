@@ -1,0 +1,47 @@
+body{
+	background-color: #18b7be;
+	text-align: center;
+}
+.header{
+	font-family: 'Rowdies', cursive;
+}
+form{
+	font-family: 'Zen Kurenaido', sans-serif;
+	background-color: #178ca4;
+	margin: 10px 490px 490px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+/*.form{
+	text-align: left;
+}*/
+.form-input label{
+	display: block;
+}
+.form-input input{
+	font-size: 14px;
+	margin-bottom: 10px;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
+	width: 310px;
+	height: 30px;
+}
+.form-input2 label, a{
+	color: white;
+	text-align: left;
+	display: block;
+}
+button{
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-size: 16px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #3aafa9;
+	color: white;
+
+}
