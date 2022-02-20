@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment: Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="whole-form">
+		<div class="header">
+			<h1>Welcome To Basic Programming Class</h1>
+			<h2>Registeration Form</h2>
+		</div>
+
+		
+		<form>
+			<div class="form">
+				<div class="form-input">
+					<label for="fname">First Name</label>
+						<input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required>
+				
+				
+					<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname" placeholder="Enter Your Last Name">
+				
+				
+					<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+				
+				
+					<label for="password">Password</label>
+						<input type="password" id="password" name="password" placeholder="Set Your Password" minlength="8" required>
+				
+					<label for="confpassword">Confirm Your Password</label>
+						<input type="password" id="confpassword" name="confpassword" placeholder="Confirm Your Password" required>
+				
+				
+					<label for="bd">Birthday</label>
+						<input type="date" name="date">
+				</div>
+
+				<div class="form-input2">
+					<div class="edu">
+						<label>Education</label>
+						<label for="Basic">
+							<input id="Basic" type="radio" value="Basic" name="Education">Basic Student
+						</label>
+
+						<label for="Uni">
+							<input id="Uni" type="radio" value="Uni" name="Education">University Student
+						</label>
+
+						<label for="Graduated">
+							<input id="Graduated" type="radio" name="Education">Graduated
+						</label>
+
+						<label for="others">
+							<input id="others" type="radio" name="Education">Others
+						</label>
+
+						<input type="text" name="Education" placeholder="Enter Your Education Level">
+					</div><br>
+
+					<div class="proglvl">
+						<label>Your Programming Level</label>
+						<label for="Beginner">
+							<input id="Beginner" type="radio" value="beginner" name="Programminglvl">Beginner
+						</label>
+
+						<label for="Pre-inter">
+							<input id="Pre-inter" type="radio" value="pre-inter" name="Programminglvl">Pre-intermediate
+						</label>
+
+						<label for="Inter">
+							<input id="Inter" type="radio" value="inter" name="Programminglvl">intermediate
+						</label>
+					</div><br>
+					
+					<div class="conf">	
+						<a href="#">Policies & Regulations</a>
+						
+						<label>
+							<input id="policy" type="checkbox">I Agree to Policies & Regulations 
+						</label><br>
+
+						<center><button type="Submit">Submit</button></center>
+					</div>
+				</div>
+				
+			</div>
+		</form>
+
+	</div>
+
+</body>
+</html>
